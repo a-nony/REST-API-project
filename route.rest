@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/64bff355b28792a1c3d57145
+
+
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-type: application/json
+
+{
+    "name": "Muiz",
+    "subscribedToChannel": "YahooHub"
+}
+
+###
+DELETE http://localhost:3000/subscribers/64c000d2e9aca50b2028e1a5
+
+###
+PATCH http://localhost:3000/subscribers/64bff84a971759ba4d8cecb9
+Content-type: application/json 
+ {
+    "name" : "Clinton Mr Spiderman"
+ }
